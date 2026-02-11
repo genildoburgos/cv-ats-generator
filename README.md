@@ -7,8 +7,6 @@ You edit a single structured JSON file, and the system generates:
 
 No subscriptions. No watermarks. No hidden limitations.
 
-🔗 Community Discord: https://discord.gg/4JcxJfXQ
-
 ---
 
 ## Why this project exists
@@ -122,8 +120,4 @@ Output:
 - keeps links clickable
 - is safe for ATS parsing
 - is suitable for direct job applications
-
-## Output Example
-
-![Screenshot](data/cv-example.png)
 
