@@ -21,16 +21,16 @@ function escapeHtml(s) {
     .replaceAll('"', "&quot;");
 }
 
-function skillsHtml(skills) {
-  return skills
-    .map(
-      (g) =>
-        `<div class="item"><div class="item-title">${escapeHtml(g.group)}:</div> ${escapeHtml(
-          g.items.join(", "),
-        )}</div>`,
-    )
-    .join("\n");
-}
+// function skillsHtml(skills) {
+//   return skills
+//     .map(
+//       (g) =>
+//         `<div class="item"><div class="item-title">${escapeHtml(g.group)}:</div> ${escapeHtml(
+//           g.items.join(", "),
+//         )}</div>`,
+//     )
+//     .join("\n");
+// }
 
 function bulletsHtml(bullets) {
   return `<ul class="bullets">${bullets
@@ -126,8 +126,8 @@ const html = tpl
   .replaceAll("{{LINKEDIN_TEXT}}", data.linkedin_url.replace(/^https?:\/\//, ""))
   .replaceAll("{{GITHUB_TEXT}}", data.github_url.replace(/^https?:\/\//, ""))
   .replaceAll("{{WEBSITE_TEXT}}", data.website_url.replace(/^https?:\/\//, ""))
-  .replaceAll("{{SUMMARY}}", escapeHtml(data.summary))
-  .replaceAll("{{SKILLS_HTML}}", skillsHtml(data.skills))
+  // .replaceAll("{{SUMMARY}}", escapeHtml(data.summary))
+  // .replaceAll("{{SKILLS_HTML}}", skillsHtml(data.skills))
   .replaceAll("{{PROJECTS_HTML}}", projectsHtml(data.projects))
   .replaceAll("{{EXPERIENCE_HTML}}", experienceHtml(data.experience))
   .replaceAll("{{EDUCATION_HTML}}", educationHtml(data.education))
