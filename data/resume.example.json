@@ -1,42 +1,68 @@
 {
   "name": "GENILDO BURGOS",
-  "title": "Analista de Automação • Backend Developer",
+  "title": "Desenvolvedor Backend & Automação | Full Stack ",
   "email": "gnldburgos@gmail.com",
   "phone_e164": "+5587991313696",
   "phone_display": "(87) 99131-3696",
-  "location": "Garanhuns, PE / Híbrido",
+  "location": "Garanhuns, PE / Remoto",
   "linkedin_url": "https://linkedin.com/in/genildo-burgos",
   "github_url": "https://github.com/genildoburgos",
   "website_url": "https://github.com/genildoburgos",
 
-  "summary": "Desenvolvedor Backend e Analista de Automação com experiência em construção de APIs REST escaláveis e soluções de RPA. Sólidos conhecimentos em Java (Spring Boot), Node.js (Express/NestJS) e ecossistema AWS. Atuação focada em eliminação de processos manuais, integração de sistemas e alta disponibilidade.",
+  "education": [
+    {
+      "title": "Bacharelado em Ciência da Computação",
+      "subtitle": "Universidade Federal do Agreste de Pernambuco (UFAPE)",
+      "date": "Out 2023 — Abr 2027 (Previsão)"
+    }
+  ],
 
-  "skills": [
+  "experience": [
     {
-      "group": "Linguagens",
-      "items": ["Java", "JavaScript", "TypeScript", "Python", "SQL"]
-    },
-    {
-      "group": "Frameworks & Libs",
-      "items": ["Spring Boot", "Express.js", "NestJS", "Selenium"]
-    },
-    {
-      "group": "Banco de Dados",
-      "items": ["PostgreSQL", "DynamoDB"]
-    },
-    {
-      "group": "Cloud & DevOps",
-      "items": [
-        "AWS (S3, DynamoDB)",
-        "Docker",
-        "N8n (Automação)",
-        "Keycloak (Auth)"
+      "role": "Analista de Automação Júnior",
+      "company": "Grupo Show Tecnologia",
+      "date": "Novembro 2025 — Presente",
+      "bullets": [
+        "Desenvolvimento de automações avançadas com n8n em ambiente de produção, incluindo tratamento global de erros, fluxos condicionais e retry strategies",
+        "Implementação de análise e monitoramento de logs para rastreabilidade de execuções e diagnóstico de falhas",
+        "Criação de Webhooks customizados e integração com APIs REST externas com autenticação via JWT e tokens fixos",
+        "Manipulação, transformação e validação de dados (JSON, CSV, payloads complexos) dentro dos fluxos de automação",
+        "Geração dinâmica de HTML e CSS para envio automatizado de relatórios e notificações personalizadas",
+        "Integração entre n8n e aplicações frontend em Next.js utilizando Axios para consumo seguro de endpoints",
+        "Desenvolvimento de endpoints REST em Node.js com Express seguindo padrão MVC para suporte às automações",
+        "Implementação de automações RPA resilientes com Node.js, Python e Selenium, reduzindo intervenções manuais e aumentando a confiabilidade operacional",
+        "Automação de emissão de faturas e espelhamento de veículos com integração a APIs e serviços de mensageria (WhatsApp)"
       ]
     },
     {
-      "group": "Ferramentas",
-      "items": ["Git", "GitHub", "Jira", "Insomnia/Postman"]
-    }
+      "role": "Estágio Backend Node.js (NestJS) & AWS",
+      "company": "Compass UOL",
+      "date": "Junho 2025 — Novembro 2025",
+      "bullets": [
+        "Desenvolvimento de APIs REST escaláveis com NestJS (v11) utilizando arquitetura modular, injeção de dependência e princípios SOLID",
+        "Implementação de autenticação e autorização com JWT e Passport (strategies Local e JWT), incluindo hash seguro de senhas com bcrypt",
+        "Criação de Guards, Interceptors e Filters para controle de acesso, logging e tratamento global de exceções (Exception Filters)",
+        "Integração com serviços AWS (S3 e DynamoDB), modelagem NoSQL e otimização de consultas com índices secundários (GSIs)",
+        "Estruturação de validação e transformação de dados com DTOs, class-validator e mapped-types",
+        "Integração com API de IA Gemini para sistemas de recomendação, utilizando comunicação assíncrona via Axios",
+        "Configuração do NestJS com Express (platform-express), middlewares customizados e gerenciamento de variáveis de ambiente",
+        "Aplicação de boas práticas de segurança (proteção de rotas, controle de claims JWT, tratamento seguro de erros e sanitização de dados)"
+      ]
+    },
+    {
+    "role": "Estágio Backend Java Spring Boot | Nível Pleno",
+    "company": "LMTS/UFAPE",
+    "date": "Abril 2024 — Agosto 2025",
+    "bullets": [
+      "Desenvolvimento de APIs REST escaláveis com Java e Spring Boot, seguindo arquitetura em camadas (Controller, Service, Repository) e boas práticas de Clean Code",
+      "Implementação de autenticação e autorização com Spring Security e Keycloak (JWT, controle de roles e permissões) para mais de 2.000 usuários",
+      "Criação de tratamento global de exceções com @RestControllerAdvice e ResponseEntityExceptionHandler, padronizando respostas de erro da API",
+      "Validação avançada de dados com Bean Validation (@Valid, @Validated) e implementação de validações customizadas",
+      "Utilização de DTOs e ModelMapper para mapeamento seguro entre entidades e camadas de exposição da API",
+      "Otimização de queries e modelagem relacional em PostgreSQL, melhorando desempenho e integridade dos dados",
+      "Containerização com Docker e configuração de ambientes por profile (dev/homolog/prod)"
+    ]
+  }
   ],
 
   "projects": [
@@ -60,54 +86,8 @@
       ]
     }
   ],
-
-  "experience": [
-    {
-      "role": "Analista de Automação Junior",
-      "company": "Grupo Show Tecnologia",
-      "date": "Novembro 2025 — Presente",
-      "bullets": [
-        "Desenvolvimento e manutenção de soluções de automação com n8n, Node.js, Python e Selenium",
-        "Eliminação de intervenções manuais com scripts RPA resilientes",
-        "Automação de emissão de faturas e espelhamento de veículos integrando APIs REST e WhatsApp com autenticação JWT"
-      ]
-    },
-    {
-      "role": "Estágio Backend Node.js & AWS",
-      "company": "Compass UOL",
-      "date": "Junho 2025 — Novembro 2025",
-      "bullets": [
-        "Desenvolvimento de APIs REST utilizando Node.js, AWS (S3, DynamoDB) e API de IA Gemini",
-        "Integração de IA para sistemas de recomendação com comunicação via Axios",
-        "Implementação de segurança e autenticação com JWT"
-      ]
-    },
-    {
-      "role": "Estágio Full Stack",
-      "company": "LMTS/UFAPE",
-      "date": "Abril 2024 — Agosto 2025",
-      "bullets": [
-        "Desenvolvimento de APIs REST escaláveis com Java e Spring Boot, Docker e PostgreSQL",
-        "Gestão de autenticação segura (Keycloak) para mais de 2.000 usuários",
-        "Otimização de desempenho de banco de dados e modelagem UML"
-      ]
-    }
-  ],
-
-  "education": [
-    {
-      "title": "Bacharelado em Ciência da Computação",
-      "subtitle": "Universidade Federal do Agreste de Pernambuco (UFAPE)",
-      "date": "Out 2023 — Abr 2027 (Previsão)"
-    }
-  ],
-
+ 
   "languages": [
-    {
-      "name": "Português",
-      "level": "Nativo",
-      "note": ""
-    },
     {
       "name": "Inglês",
       "level": "Avançado",

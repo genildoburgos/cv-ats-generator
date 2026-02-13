@@ -1,0 +1,29 @@
+{
+    "skills": [
+        {
+        "group": "Linguagens",
+        "items": ["Java", "JavaScript", "TypeScript", "Python", "SQL"]
+        },
+        {
+        "group": "Frameworks & Libs",
+        "items": ["Spring Boot", "Express.js", "NestJS", "Selenium"]
+        },
+        {
+        "group": "Banco de Dados",
+        "items": ["PostgreSQL", "DynamoDB"]
+        },
+        {
+        "group": "Cloud & DevOps",
+        "items": [
+            "AWS (S3, DynamoDB)",
+            "Docker",
+            "N8n (Automação)",
+            "Keycloak (Auth)"
+        ]
+        },
+        {
+        "group": "Ferramentas",
+        "items": ["Git", "GitHub", "Jira", "Insomnia/Postman", "Html", "Css"]
+        }
+    ]
+}
