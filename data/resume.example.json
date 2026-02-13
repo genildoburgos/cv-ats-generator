@@ -1,6 +1,6 @@
 {
   "name": "GENILDO BURGOS",
-  "title": "Desenvolvedor Backend & Automação | Full Stack ",
+  "title": "Desenvolvedor Backend (Java & Node.js) | Automação & Cloud",
   "email": "gnldburgos@gmail.com",
   "phone_e164": "+5587991313696",
   "phone_display": "(87) 99131-3696",
@@ -46,11 +46,12 @@
         "Estruturação de validação e transformação de dados com DTOs, class-validator e mapped-types",
         "Integração com API de IA Gemini para sistemas de recomendação, utilizando comunicação assíncrona via Axios",
         "Configuração do NestJS com Express (platform-express), middlewares customizados e gerenciamento de variáveis de ambiente",
-        "Aplicação de boas práticas de segurança (proteção de rotas, controle de claims JWT, tratamento seguro de erros e sanitização de dados)"
+        "Aplicação de boas práticas de segurança (proteção de rotas, controle de claims JWT, tratamento seguro de erros e sanitização de dados)",
+        "Documentação de APIs REST utilizando Swagger/OpenAPI e elaboração de README técnico com instruções de instalação, configuração e uso da aplicação"
       ]
     },
     {
-    "role": "Estágio Backend Java Spring Boot | Nível Pleno",
+    "role": "Estágio Backend Java Spring Boot (Atuação Nível Pleno)",
     "company": "LMTS/UFAPE",
     "date": "Abril 2024 — Agosto 2025",
     "bullets": [
@@ -84,13 +85,29 @@
         "Autoria do artigo 'Framework Java: Conheça o Spring e o Poder do Spring Boot'",
         "Demonstração de conhecimento aprofundado no ecossistema Spring"
       ]
-    }
+    },
+   {
+    "title": "Projetos Open Source (GitHub)",
+    "stack": "Java, Spring Boot, NestJS, Next.js, n8n, AWS, Docker, Terraform",
+    "bullets": [
+      "Desenvolvimento de sistema completo para hospital veterinário com backend em Spring Boot e frontend em Next.js, aplicando arquitetura em camadas, autenticação JWT e documentação com Swagger",
+      "Centralização de infraestrutura pessoal com Docker Compose, Cloudflare e Terraform, incluindo provisionamento de recursos e gerenciamento de ambientes",
+      "Desenvolvimento de API para controle e armazenamento de imagens com NestJS integrada à AWS (S3 e DynamoDB), utilizando autenticação JWT e modelagem NoSQL",
+      "Criação de gerador automático de relatórios de erro para execution data do n8n, com geração dinâmica de HTML, CSS e JavaScript",
+      "Desenvolvimento de workflows avançados no n8n para scraping, tratamento e transformação de dados, com controle de exceções e fluxos resilientes"
+    ]
+  }
   ],
  
   "languages": [
     {
+      "name": "Português",
+      "level": "Fluente",
+      "note": ""
+    },
+    {
       "name": "Inglês",
-      "level": "Avançado",
+      "level": "Avançado (Leitura técnica e conversação)",
       "note": ""
     }
   ]
