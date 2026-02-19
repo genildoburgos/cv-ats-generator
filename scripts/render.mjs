@@ -128,7 +128,7 @@ const html = tpl
   .replaceAll("{{WEBSITE_TEXT}}", data.website_url.replace(/^https?:\/\//, ""))
   // .replaceAll("{{SUMMARY}}", escapeHtml(data.summary))
   // .replaceAll("{{SKILLS_HTML}}", skillsHtml(data.skills))
-  .replaceAll("{{PROJECTS_HTML}}", projectsHtml(data.projects))
+  .replaceAll("{{TECHNICAL_HIGHLIGHTS_HTML}}", projectsHtml(data.technical_highlights))
   .replaceAll("{{EXPERIENCE_HTML}}", experienceHtml(data.experience))
   .replaceAll("{{EDUCATION_HTML}}", educationHtml(data.education))
   .replaceAll("{{LANGUAGES_HTML}}", languagesHtml(data.languages));
