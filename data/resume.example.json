@@ -1,13 +1,13 @@
 {
   "name": "GENILDO BURGOS",
-  "title": "Desenvolvedor Backend (Java & Node.js) | Automação & Cloud",
+  "title": "Backend Engineer (Java & Node.js) | Cloud & Automation",
   "email": "gnldburgos@gmail.com",
   "phone_e164": "+5587991313696",
   "phone_display": "(87) 99131-3696",
   "location": "Garanhuns, PE / Remoto",
   "linkedin_url": "https://linkedin.com/in/genildo-burgos",
   "github_url": "https://github.com/genildoburgos",
-  "website_url": "https://github.com/genildoburgos",
+  "website_url": "",
 
   "education": [
     {
@@ -66,37 +66,35 @@
   }
   ],
 
-  "projects": [
+  "technical_highlights": [
+   {
+      "title": "Projetos Técnicos",
+      "stack": "Java, Spring Boot, NestJS, Next.js, n8n, AWS, Docker, Terraform",
+      "bullets": [
+        "Infraestrutura como Código: Provisionamento e gerenciamento de ambientes com Terraform, Docker Compose e Cloudflare, garantindo padronização e reprodutibilidade",
+        "Backend Cloud: API para armazenamento e gerenciamento de imagens com NestJS integrada à AWS (S3 e DynamoDB), utilizando autenticação JWT e modelagem NoSQL",
+        "Automação de Observabilidade: Gerador automático de relatórios de erro para execution data do n8n com geração dinâmica de HTML, CSS e JavaScript",
+        "Data Automation: Workflows avançados no n8n para scraping, transformação e tratamento de dados com controle de exceções e fluxos resilientes"
+      ]
+    },
+    {
+      "title": "Premiação Técnica — Digital Innovation One",
+      "stack": "Java, Spring Ecosystem",
+      "bullets": [
+        "3º lugar em competição nacional de artigos técnicos",
+        "Autor do artigo 'Framework Java: Conheça o Spring e o Poder do Spring Boot'",
+        "Reconhecimento por domínio avançado do ecossistema Spring"
+      ]
+    },
     {
       "title": "Certificações Profissionais",
       "stack": "AWS, Node.js, AI",
       "bullets": [
-        "AWS - Certified Cloud Practitioner (Nov/2025)",
-        "Compass UOL — Backend Journey Node.js / AWS Cloud Context (Nov/2025)",
-        "Sauter University — AI Specialist Program (Set/2025)"
-      ],
-      "links": []
-    },
-    {
-      "title": "Premiação: Artigo Técnico (DIO)",
-      "stack": "Java, Spring Ecosystem",
-      "bullets": [
-        "3º Lugar na Competição Nacional de Artigos Técnicos da Digital Innovation One",
-        "Autoria do artigo 'Framework Java: Conheça o Spring e o Poder do Spring Boot'",
-        "Demonstração de conhecimento aprofundado no ecossistema Spring"
+        "2025 — AWS Certified Cloud Practitioner",
+        "2025 — Backend Journey Node.js / AWS Cloud Context (Compass UOL)",
+        "2025 — AI Specialist Program (Sauter University)"
       ]
-    },
-   {
-    "title": "Projetos Open Source (GitHub)",
-    "stack": "Java, Spring Boot, NestJS, Next.js, n8n, AWS, Docker, Terraform",
-    "bullets": [
-      "Desenvolvimento de sistema completo para hospital veterinário com backend em Spring Boot e frontend em Next.js, aplicando arquitetura em camadas, autenticação JWT e documentação com Swagger",
-      "Centralização de infraestrutura pessoal com Docker Compose, Cloudflare e Terraform, incluindo provisionamento de recursos e gerenciamento de ambientes",
-      "Desenvolvimento de API para controle e armazenamento de imagens com NestJS integrada à AWS (S3 e DynamoDB), utilizando autenticação JWT e modelagem NoSQL",
-      "Criação de gerador automático de relatórios de erro para execution data do n8n, com geração dinâmica de HTML, CSS e JavaScript",
-      "Desenvolvimento de workflows avançados no n8n para scraping, tratamento e transformação de dados, com controle de exceções e fluxos resilientes"
-    ]
-  }
+    }
   ],
  
   "languages": [
